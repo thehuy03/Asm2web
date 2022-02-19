@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+}
+.container-header{
+    position: relative;
+    height: 500px;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-color: rgb(65, 15, 15);
+    /* background-image: url(../image/3spiderman.jpg); */
+}
+.container-header img{
+    width: 200px;
+}
+.container-header div{
+    font-family: sans-serif;
+    font-variant: small-caps;
+    font-size: 24px;
+    margin-left: 30px;
+}
+.nav-menu ul {
+    width: 100%;
+    list-style: none;
+    /* position: absolute; */
+    top: 10px;
+    display: flex;
+    left: 400px;
+    background-color: lightcoral;
+}
+.nav-menu li{
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 5px;
+    margin-left: 70px;
+}
+.nav-menu li a{
+    text-decoration: none;
+    color:antiquewhite ;
+    text-shadow: 0 0 10px red;
+    font-size: 25px;
+    margin: 10px;
+    
+}
+.nav-menu li a:hover{
+    color: rgb(52, 52, 102);
+}
+.container-header .avt1{
+    display: inline-block;
+    position: absolute;
+    width: 220px;
+    left: 30px;
+}
+.container-header .small1{
+    position: absolute;
+    top: 270px;
+}
+.container-header .avt2{
+    position: absolute;
+    left: 45%;
+    width: 220px;
+}
+.container-header .small3{
+    top: 270px;
+    bottom: 15px;
+
+}
+.container-header .avt3 {
+    position: absolute;
+    right: 30px;
+    width: 220px;
+}
+.container-header .small6{
+    bottom: 15px;
+    
+}
+/* code mid  */
+.container-mid{
+    position: relative;
+}
+.container-mid aside{
+    position: absolute;
+    /* right: 0px; */
+    top: 0px;
+    left: 50%;
+    /* display: flex; */
+}
+.container-mid aside h3{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* code footer  */
+.endln{
+    height: 200px;
+}
+.endln img {
+    position: relative;
+    width: 100%;
+    object-fit: cover;
+    height: 200px;
+}
+.content-end1 {
+    bottom: 150px;
+    position: relative;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+    color: chartreuse;
+    text-shadow:0 0 5px coral;
+}
+.content-end2 {
+    bottom: 150px;
+    position: relative;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+    color: chartreuse;
+    text-shadow:0 0 5px coral;
+}
+footer{
+    height: 190px;
+}

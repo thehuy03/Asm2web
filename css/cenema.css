@@ -1,0 +1,153 @@
+*{
+    margin: 0px;
+}
+.container-header{
+    background-image: url(../image/spider-man_with_dr.jpg);
+    height: 400px;
+}
+.container-header img{
+    width: 250px;
+    margin-left: 90px;
+    margin-top: 80px;
+}
+.container-header div{
+    font-family: sans-serif;
+    font-variant: small-caps;
+    font-size: 24px;
+    margin-left: 30px;
+}
+#name{
+    color: beige;
+    font-weight: bold;
+    margin-left: 130px;
+}
+.container-header #name-poster{
+    width: 450px;
+    margin-left: 20px;
+}
+/*code nav menu*/
+.nav-menu ul {
+    width: 100%;
+    list-style: none;
+    /* position: absolute; */
+    top: 10px;
+    display: flex;
+    left: 400px;
+    background-color: lightcoral;
+}
+.nav-menu li{
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 5px;
+    margin-left: 70px;
+}
+.nav-menu li a{
+    text-decoration: none;
+    color:antiquewhite ;
+    text-shadow: 0 0 10px red;
+    font-size: 25px;
+    margin: 10px;
+    
+}
+.nav-menu li a:hover{
+    color: rgb(52, 52, 102);
+}
+/* code mid  */
+/* .container-mid{
+    display: flex;
+} */
+article table{
+    width: 1535px;
+    right: 3px;
+    border-collapse: collapse;
+}
+table tr td{
+    border: 2px solid rgb(73, 62, 62);
+}
+.line1:hover .boxleft{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx-Lp7K8Y3kut0h-gdYwyS-AaSMD8UJdtJSQ&usqp=CAU);
+    /* background-image: url(../image/spider-man-1-1639967997315310917499-crop-1639968546777212376911.gif); */
+}
+.line1:hover div{
+    display: none;
+}
+.line2:hover .boxleft {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e463af62-f4bf-40bf-a0a7-38e6b16a76db/d4141q2-c9765538-3006-4233-9e2b-78c33772ff06.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2U0NjNhZjYyLWY0YmYtNDBiZi1hMGE3LTM4ZTZiMTZhNzZkYlwvZDQxNDFxMi1jOTc2NTUzOC0zMDA2LTQyMzMtOWUyYi03OGMzMzc3MmZmMDYuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.h9ZjjPkQkw2C5vZzzL7L0NPRPSntiat741hk7-MlIKk);
+    /* background-image: url(../image/spider-man-1-1639967997315310917499-crop-1639968546777212376911.gif); */
+}
+.line2:hover div{
+    display: none;
+}
+.line3:hover {
+    background-repeat: no-repeat;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7Sra7s-ibQc72oblguzf_j5EihLdwVsjdfw&usqp=CAU);
+    /* background-image: url(../image/spider-man-1-1639967997315310917499-crop-1639968546777212376911.gif); */
+}
+.line3:hover div{
+    display: none;
+}
+tr div{
+    font-weight: bolder;
+    color: olive;
+}
+tr a{
+    font-family: fantasy;
+    color: olive;
+}
+.boxleft{
+    width: 150px;
+    height: 80px;
+    text-align: center;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.boxright{
+    text-align: center;
+    width: 450px;  
+}
+.boxright a{
+    text-decoration: none;
+}
+aside{
+    width: 1500px;
+}
+.iframe--{
+    margin-left: 3px;
+    width: 100%;
+    height: 1000px;
+}
+/* code footer  */
+.endln{
+    height: 200px;
+}
+.endln img {
+    position: relative;
+    width: 100%;
+    object-fit: cover;
+    height: 200px;
+}
+.content-end1 {
+    bottom: 150px;
+    position: relative;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+    color: chartreuse;
+    text-shadow:0 0 5px coral;
+}
+.content-end2 {
+    bottom: 150px;
+    position: relative;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+    color: chartreuse;
+    text-shadow:0 0 5px coral;
+}
+footer{
+    height: 190px;
+}
